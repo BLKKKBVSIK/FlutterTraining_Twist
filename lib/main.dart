@@ -3,7 +3,7 @@ import 'ui/home/HomePage.dart';
 
 void main() {
   runApp(
-    new MaterialApp(
+    MaterialApp(
       title: "PlanetTwist",
       home: HomePage(),
     ),
