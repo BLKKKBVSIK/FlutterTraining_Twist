@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import '../../fontsStyling.dart';
 import '../../model/Item.dart';
 
-class itemCardContent extends StatelessWidget {
+class ItemCardContent extends StatelessWidget {
   final Item item;
 
-  itemCardContent(this.item);
+  ItemCardContent(this.item);
 
   @override
   Widget build(BuildContext context) {
