@@ -17,6 +17,7 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  rive: ^0.0.1
   flutter:
     sdk: flutter
 
@@ -37,6 +38,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/img/
+    - assets/animations/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

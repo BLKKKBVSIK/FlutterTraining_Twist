@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:planettwist/ui/items/ItemRow.dart';
+import '../../fontsStyling.dart';
 import '../../model/Item.dart';
+import 'separator.dart';
 
 class DetailPage extends StatelessWidget {
   final Item planet;
@@ -68,10 +70,10 @@ class DetailPage extends StatelessWidget {
               children: <Widget>[
                  Text(
                   _overviewTitle,
-                  style: Style.headerTextStyle,
+                  style: headerTextStyle,
                 ),
                  Separator(),
-                 Text(planet.description, style: Style.commonTextStyle),
+                 Text(planet.description, style: baseTextStyle),
               ],
             ),
           ),
