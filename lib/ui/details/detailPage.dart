@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:planettwist/ui/items/ItemRow.dart';
+import '../items/ItemRow.dart';
 import '../../fontsStyling.dart';
 import '../../model/Item.dart';
 import 'separator.dart';

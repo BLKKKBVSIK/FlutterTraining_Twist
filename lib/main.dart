@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:planettwist/model/Item.dart';
-import 'ui/details/detailPage.dart';
 import 'ui/home/HomePage.dart';
 
 void main() => runApp(MyApp());

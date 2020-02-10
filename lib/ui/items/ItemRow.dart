@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flare_flutter/flare_actor.dart';
 import '../../model/Item.dart';
 import '../details/detailPage.dart';
 import '../../ui/details/detailPage.dart';
-import 'package:flare_flutter/flare_actor.dart';
 import '../../ui/details/separator.dart';
-
 import '../../fontsStyling.dart';
 
 class ItemRow extends StatelessWidget {
