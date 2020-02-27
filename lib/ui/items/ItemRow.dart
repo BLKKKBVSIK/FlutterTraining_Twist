@@ -25,8 +25,7 @@ class ItemRow extends StatelessWidget {
         child: Container(
           height: 95.0,
           width: 95.0,
-          child: FlareActor("assets/animations/planets.flr",
-              animation: item.name),
+          child: FlareActor("assets/animations/planets.flr", animation: item.name),
         ),
       ),
     );
@@ -42,6 +41,7 @@ class ItemRow extends StatelessWidget {
     }
 
     final itemCardContent = new Container(
+      height: 300,
       margin: new EdgeInsets.fromLTRB(
           horizontal ? 76.0 : 16.0, horizontal ? 16.0 : 42.0, 16.0, 16.0),
       constraints: new BoxConstraints.expand(),
@@ -51,7 +51,6 @@ class ItemRow extends StatelessWidget {
         children: <Widget>[
           new Container(height: 4.0),
           new Text(item.name, style: headerTextStyle),
-          new Container(height: 10.0),
           new Text(item.location, style: subHeaderTextStyle),
           new Separator(),
           Expanded(
@@ -80,7 +79,7 @@ class ItemRow extends StatelessWidget {
 
     final itemCard = new Container(
       child: itemCardContent,
-      height: horizontal ? 124.0 : 154.0,
+      height: horizontal ? 174.0 : 154.0,
       margin: horizontal
           ? new EdgeInsets.only(left: 46.0)
           : new EdgeInsets.only(top: 72.0),

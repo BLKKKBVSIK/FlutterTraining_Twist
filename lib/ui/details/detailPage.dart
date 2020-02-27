@@ -73,7 +73,7 @@ class DetailPage extends StatelessWidget {
                   style: headerTextStyle,
                 ),
                  Separator(),
-                 Text(planet.description, style: baseTextStyle),
+                 Text(planet.description, style: biggerBaseTextStyle),
               ],
             ),
           ),
